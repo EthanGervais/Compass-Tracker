@@ -1,4 +1,11 @@
-name: MultiplyDrops
-main: lol.thekingdom.mobHunt.MobHunt
+name: CompassTracker
+main: lol.thekingdom.compassTracker.CompassTracker
 version: 1.0
 api-version: 1.16
+commands:
+   settarget:
+      description: Sets the target based on args from the command.
+      usage: /<command> <username>
+   removetarget:
+      description: This is the command to remove the target (sets it to null).
+      usage: /<command>
